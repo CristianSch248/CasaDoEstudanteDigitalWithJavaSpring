@@ -1,13 +1,12 @@
 package com.ceuDigital.api.service;
 
-import com.ceuDigital.api.domain.apartamento.Apartment;
-import com.ceuDigital.api.domain.manutencao.Maintenance;
-import com.ceuDigital.api.domain.manutencao.MaintenanceRequestDTO;
-import com.ceuDigital.api.domain.usuario.User;
+import com.ceuDigital.api.domain.apartment.Apartment;
+import com.ceuDigital.api.domain.maintenance.Maintenance;
+import com.ceuDigital.api.domain.maintenance.MaintenanceRequestDTO;
+import com.ceuDigital.api.domain.user.User;
 import com.ceuDigital.api.repositories.ApartmentRepository;
 import com.ceuDigital.api.repositories.MaintenanceRepository;
 import com.ceuDigital.api.repositories.UserRepository;
-import com.ceuDigital.api.repositories.VacancyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

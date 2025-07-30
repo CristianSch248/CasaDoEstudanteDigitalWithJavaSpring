@@ -1,4 +1,4 @@
-package com.ceuDigital.api.domain.apartamento;
+package com.ceuDigital.api.domain.apartment;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -11,8 +11,8 @@ import java.util.UUID;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Apartment {
-
+public class Apartment
+{
     @Id
     @GeneratedValue
     private UUID id;

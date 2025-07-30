@@ -1,7 +1,6 @@
-package com.ceuDigital.api.domain.vistoria;
+package com.ceuDigital.api.domain.inspection;
 
 import java.time.LocalDate;
-import java.time.LocalTime;
 import java.util.UUID;
 
 public record InspectionRequestDTO( UUID id_student,

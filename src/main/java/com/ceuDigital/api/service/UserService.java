@@ -1,7 +1,7 @@
 package com.ceuDigital.api.service;
 
-import com.ceuDigital.api.domain.usuario.UserRequestDTO;
-import com.ceuDigital.api.domain.usuario.User;
+import com.ceuDigital.api.domain.user.UserRequestDTO;
+import com.ceuDigital.api.domain.user.User;
 import com.ceuDigital.api.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

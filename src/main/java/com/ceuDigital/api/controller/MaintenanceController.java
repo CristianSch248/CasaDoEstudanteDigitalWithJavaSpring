@@ -1,8 +1,8 @@
 package com.ceuDigital.api.controller;
 
 
-import com.ceuDigital.api.domain.manutencao.Maintenance;
-import com.ceuDigital.api.domain.manutencao.MaintenanceRequestDTO;
+import com.ceuDigital.api.domain.maintenance.Maintenance;
+import com.ceuDigital.api.domain.maintenance.MaintenanceRequestDTO;
 import com.ceuDigital.api.service.MaintenanceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

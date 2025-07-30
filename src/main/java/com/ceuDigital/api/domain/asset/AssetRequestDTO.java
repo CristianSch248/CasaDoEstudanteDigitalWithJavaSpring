@@ -1,4 +1,4 @@
-package com.ceuDigital.api.domain.patrimonio;
+package com.ceuDigital.api.domain.asset;
 
 import java.util.UUID;
 

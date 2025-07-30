@@ -1,7 +1,6 @@
-package com.ceuDigital.api.domain.manutencao;
+package com.ceuDigital.api.domain.maintenance;
 
 import java.time.LocalDate;
-import java.time.LocalTime;
 import java.util.UUID;
 
 public record MaintenanceRequestDTO( UUID id_student,

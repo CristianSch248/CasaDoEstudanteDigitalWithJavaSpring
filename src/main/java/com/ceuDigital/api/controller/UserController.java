@@ -1,7 +1,7 @@
 package com.ceuDigital.api.controller;
 
-import com.ceuDigital.api.domain.usuario.UserRequestDTO;
-import com.ceuDigital.api.domain.usuario.User;
+import com.ceuDigital.api.domain.user.UserRequestDTO;
+import com.ceuDigital.api.domain.user.User;
 import com.ceuDigital.api.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

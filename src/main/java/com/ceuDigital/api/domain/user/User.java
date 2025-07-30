@@ -1,4 +1,4 @@
-package com.ceuDigital.api.domain.usuario;
+package com.ceuDigital.api.domain.user;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -10,7 +10,8 @@ import java.util.UUID;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+public class User
+{
 
     @Id
     @GeneratedValue

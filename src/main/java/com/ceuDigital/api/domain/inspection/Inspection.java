@@ -1,7 +1,7 @@
-package com.ceuDigital.api.domain.vistoria;
+package com.ceuDigital.api.domain.inspection;
 
-import com.ceuDigital.api.domain.apartamento.Apartment;
-import com.ceuDigital.api.domain.usuario.User;
+import com.ceuDigital.api.domain.apartment.Apartment;
+import com.ceuDigital.api.domain.user.User;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -14,8 +14,8 @@ import java.util.UUID;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Inspection {
-
+public class Inspection
+{
     @Id
     @GeneratedValue
     private UUID id;

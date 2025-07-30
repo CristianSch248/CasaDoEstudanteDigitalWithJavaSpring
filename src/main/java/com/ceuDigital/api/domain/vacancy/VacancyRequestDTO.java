@@ -1,4 +1,4 @@
-package com.ceuDigital.api.domain.vaga;
+package com.ceuDigital.api.domain.vacancy;
 
 import java.time.LocalDate;
 import java.util.UUID;

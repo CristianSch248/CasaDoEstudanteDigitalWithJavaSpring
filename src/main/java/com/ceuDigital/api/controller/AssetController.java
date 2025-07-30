@@ -1,7 +1,7 @@
 package com.ceuDigital.api.controller;
 
-import com.ceuDigital.api.domain.patrimonio.Asset;
-import com.ceuDigital.api.domain.patrimonio.AssetRequestDTO;
+import com.ceuDigital.api.domain.asset.Asset;
+import com.ceuDigital.api.domain.asset.AssetRequestDTO;
 import com.ceuDigital.api.service.AssetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

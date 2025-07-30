@@ -1,7 +1,7 @@
 package com.ceuDigital.api.controller;
 
-import com.ceuDigital.api.domain.vaga.Vacancy;
-import com.ceuDigital.api.domain.vaga.VacancyRequestDTO;
+import com.ceuDigital.api.domain.vacancy.Vacancy;
+import com.ceuDigital.api.domain.vacancy.VacancyRequestDTO;
 import com.ceuDigital.api.service.VacancyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

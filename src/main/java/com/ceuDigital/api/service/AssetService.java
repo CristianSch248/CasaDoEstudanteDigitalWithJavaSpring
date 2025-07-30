@@ -1,8 +1,8 @@
 package com.ceuDigital.api.service;
 
-import com.ceuDigital.api.domain.apartamento.Apartment;
-import com.ceuDigital.api.domain.patrimonio.Asset;
-import com.ceuDigital.api.domain.patrimonio.AssetRequestDTO;
+import com.ceuDigital.api.domain.apartment.Apartment;
+import com.ceuDigital.api.domain.asset.Asset;
+import com.ceuDigital.api.domain.asset.AssetRequestDTO;
 import com.ceuDigital.api.repositories.ApartmentRepository;
 import com.ceuDigital.api.repositories.AssetRepository;
 import org.springframework.beans.factory.annotation.Autowired;

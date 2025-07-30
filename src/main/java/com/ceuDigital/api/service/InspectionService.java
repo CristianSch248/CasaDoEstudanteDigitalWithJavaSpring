@@ -1,9 +1,9 @@
 package com.ceuDigital.api.service;
 
-import com.ceuDigital.api.domain.apartamento.Apartment;
-import com.ceuDigital.api.domain.usuario.User;
-import com.ceuDigital.api.domain.vistoria.Inspection;
-import com.ceuDigital.api.domain.vistoria.InspectionRequestDTO;
+import com.ceuDigital.api.domain.apartment.Apartment;
+import com.ceuDigital.api.domain.user.User;
+import com.ceuDigital.api.domain.inspection.Inspection;
+import com.ceuDigital.api.domain.inspection.InspectionRequestDTO;
 import com.ceuDigital.api.repositories.ApartmentRepository;
 import com.ceuDigital.api.repositories.InspectionRepository;
 import com.ceuDigital.api.repositories.UserRepository;

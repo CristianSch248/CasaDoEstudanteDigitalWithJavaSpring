@@ -1,7 +1,7 @@
 package com.ceuDigital.api.controller;
 
-import com.ceuDigital.api.domain.apartamento.ApartmentRequestDTO;
-import com.ceuDigital.api.domain.apartamento.Apartment;
+import com.ceuDigital.api.domain.apartment.ApartmentRequestDTO;
+import com.ceuDigital.api.domain.apartment.Apartment;
 import com.ceuDigital.api.service.ApartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -20,7 +20,7 @@ public class ApartmentController
     @PostMapping
     public ResponseEntity<Apartment> create (@RequestBody ApartmentRequestDTO apartmentRequestDTO)
     {
-        Apartment newApartment = this.apartmentService.createApartment(apartmentRequestDTO);
+        Apartment newApartment = this.apartmentService.createApartment( apartmentRequestDTO );
 
         return ResponseEntity.ok(newApartment);
     }

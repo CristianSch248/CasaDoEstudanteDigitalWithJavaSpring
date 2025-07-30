@@ -1,4 +1,4 @@
-package com.ceuDigital.api.domain.apartamento;
+package com.ceuDigital.api.domain.apartment;
 
 public record ApartmentRequestDTO(
         Long apartment_number,

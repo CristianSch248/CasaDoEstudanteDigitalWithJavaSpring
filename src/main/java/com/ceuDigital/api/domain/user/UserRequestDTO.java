@@ -1,4 +1,4 @@
-package com.ceuDigital.api.domain.usuario;
+package com.ceuDigital.api.domain.user;
 
 public record UserRequestDTO(String name,
                              String email,

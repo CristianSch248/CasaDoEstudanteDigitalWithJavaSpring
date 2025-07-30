@@ -1,9 +1,9 @@
 package com.ceuDigital.api.service;
 
-import com.ceuDigital.api.domain.apartamento.Apartment;
-import com.ceuDigital.api.domain.usuario.User;
-import com.ceuDigital.api.domain.vaga.Vacancy ;
-import com.ceuDigital.api.domain.vaga.VacancyRequestDTO;
+import com.ceuDigital.api.domain.apartment.Apartment;
+import com.ceuDigital.api.domain.user.User;
+import com.ceuDigital.api.domain.vacancy.Vacancy ;
+import com.ceuDigital.api.domain.vacancy.VacancyRequestDTO;
 import com.ceuDigital.api.repositories.ApartmentRepository;
 import com.ceuDigital.api.repositories.UserRepository;
 import com.ceuDigital.api.repositories.VacancyRepository;

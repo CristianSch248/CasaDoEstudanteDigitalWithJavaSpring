@@ -1,7 +1,7 @@
-package com.ceuDigital.api.domain.manutencao;
+package com.ceuDigital.api.domain.maintenance;
 
-import com.ceuDigital.api.domain.apartamento.Apartment;
-import com.ceuDigital.api.domain.usuario.User;
+import com.ceuDigital.api.domain.apartment.Apartment;
+import com.ceuDigital.api.domain.user.User;
 import jakarta.persistence.*;
 import lombok.*;
 

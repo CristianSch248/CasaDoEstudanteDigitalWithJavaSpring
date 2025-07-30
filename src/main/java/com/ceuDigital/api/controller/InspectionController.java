@@ -1,7 +1,7 @@
 package com.ceuDigital.api.controller;
 
-import com.ceuDigital.api.domain.vistoria.Inspection;
-import com.ceuDigital.api.domain.vistoria.InspectionRequestDTO;
+import com.ceuDigital.api.domain.inspection.Inspection;
+import com.ceuDigital.api.domain.inspection.InspectionRequestDTO;
 import com.ceuDigital.api.service.InspectionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
